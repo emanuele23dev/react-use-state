@@ -19,7 +19,7 @@ export default [
   },
   {
     id: 4,
-    title: "Node.js",
+    title: "NodeJs",
     description:
       "Node.js è un ambiente di runtime JavaScript lato server che permette di utilizzare JavaScript anche sul backend, consentendo agli sviluppatori di usare lo stesso linguaggio sia sul client che sul server.",
   },
@@ -31,7 +31,7 @@ export default [
   },
   {
     id: 6,
-    title: "ReactJS",
+    title: "ReactJs",
     description:
       "ReactJS è una libreria JavaScript per costruire interfacce utente, in particolare applicazioni a pagina singola. Consente agli sviluppatori di creare componenti UI riutilizzabili e di gestire efficacemente lo stato dell'applicazione.",
   },
