@@ -22,7 +22,9 @@ function App() {
         <div className="buttons-container">
           {languages.map((item, index) => (
             <button
-              className={`language-button ${item.title}`}
+              className={`language-button ${item.title} ${
+                active == index ? "active" : ""
+              }`}
               key={item.id}
               onClick={handleClick}
               data-index={index}
