@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import AppHeader from "./components/AppHeader";
+import AppFooter from "./components/AppFooter";
 import languages from "./data/languages";
 
 function App() {
@@ -41,6 +42,8 @@ function App() {
           </div>
         ))}
       </div>
+
+      <AppFooter />
     </>
   );
 }
